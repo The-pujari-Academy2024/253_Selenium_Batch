@@ -13,11 +13,14 @@ public class TestCases {
 	{
 		Assert.assertTrue(true);
 		
+		System.out.println("hello");
+		
 	}
 	@Test
 	void testCase1()
 	{
 		Assert.assertTrue(false);
+		System.out.println("hello world");
 		
 	}
 	@Test
